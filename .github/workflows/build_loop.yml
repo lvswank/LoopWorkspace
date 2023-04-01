@@ -40,7 +40,7 @@ jobs:
 
           # Submodule LoopKit patches:
           # LoopKit: Filename: removed passcode requirement
-           curl https://github.com/lvswank/LoopKit/commit/SHA-1.patch | git apply -v --directory=LoopKit
+          curl https://github.com/lvswank/LoopKit/commit/bd787e2b8fad917a3920c21ba80a895ba7a411ec.patch | git apply -v --directory=LoopKit
 
           # Submodule xxxxx patches: Follow prototype above
 
